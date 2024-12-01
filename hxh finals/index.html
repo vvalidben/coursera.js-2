@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> 
+</head>
+<body onload="initializeTabFocus()">
+    
+    <div id="image">
+        Hover over an image below to display here.
+    </div>
+    
+    <div class="image-container">
+        <img class="preview" alt="Gon" src="https://i.imgur.com/JcBKYY6.jpeg" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+        <img class="preview" alt="Kurapika" src="https://i.imgur.com/Dd8sJ3U.gif" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+        <img class="preview" alt="Killua" src="https://i.imgur.com/34lgrXF.jpeg" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+        <img class="preview" alt="Hisoka" src="https://i.imgur.com/K47EDRO.jpeg" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+        <img class="preview" alt="Chrollo" src="https://i.imgur.com/2ocUgM0.gif" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+        <img class="preview" alt="Meruem" src="https://i.imgur.com/HWX6BeB.gif" onmouseover="upDate(this)" onmouseout="unDo()" onfocus="upDate(this)" onblur="unDo()" tabindex="0">
+    </div>
+
+</body>
+</html>
